@@ -42,11 +42,21 @@ The project is inspired by the Kaggle dataset **House Prices: Advanced Regressio
    git clone https://github.com/eshankushwah/House-Price-Prediction-using-advanced-regression-techniques.git
    cd House-Price-Prediction-using-advanced-regression-techniques
 
-2. Create a virtual environment (recommended):
+Create a virtual environment (recommended):
 
 python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the Streamlit app:
+
+streamlit run web_page_xgboost_custom.py
 
 ✨ XGBoost with hyperparameter tuning performed best.
 
